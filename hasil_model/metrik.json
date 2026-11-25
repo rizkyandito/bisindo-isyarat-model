@@ -1,0 +1,32 @@
+{
+ "kata": {
+  "dengan_wajah": {
+   "akurasi": 0.9844,
+   "f1_makro": 0.9845
+  },
+  "tanpa_wajah": {
+   "akurasi": 0.9906,
+   "f1_makro": 0.9903
+  },
+  "jumlah_uji": 320
+ },
+ "abjad": {
+  "akurasi": 0.9963,
+  "f1_makro": 0.9961,
+  "jumlah_uji": 270
+ },
+ "makna": {
+  "test": {
+   "exact_match": 1.0,
+   "bleu": 100.0,
+   "chrf": 100.0,
+   "jumlah": 102
+  },
+  "test_kombinasi_baru": {
+   "exact_match": 1.0,
+   "bleu": 100.0,
+   "chrf": 100.0,
+   "jumlah": 86
+  }
+ }
+}

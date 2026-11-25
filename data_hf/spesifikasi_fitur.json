@@ -1,0 +1,89 @@
+{
+ "panjang": 195,
+ "bagian": {
+  "pose_xy": [
+   0,
+   14
+  ],
+  "tangan_xyz": [
+   14,
+   140
+  ],
+  "flag_tangan": [
+   140,
+   142
+  ],
+  "wajah_blendshape": [
+   142,
+   194
+  ],
+  "flag_wajah": [
+   194,
+   195
+  ]
+ },
+ "pose_index_mediapipe": [
+  0,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16
+ ],
+ "blendshape": [
+  "_neutral",
+  "browDownLeft",
+  "browDownRight",
+  "browInnerUp",
+  "browOuterUpLeft",
+  "browOuterUpRight",
+  "cheekPuff",
+  "cheekSquintLeft",
+  "cheekSquintRight",
+  "eyeBlinkLeft",
+  "eyeBlinkRight",
+  "eyeLookDownLeft",
+  "eyeLookDownRight",
+  "eyeLookInLeft",
+  "eyeLookInRight",
+  "eyeLookOutLeft",
+  "eyeLookOutRight",
+  "eyeLookUpLeft",
+  "eyeLookUpRight",
+  "eyeSquintLeft",
+  "eyeSquintRight",
+  "eyeWideLeft",
+  "eyeWideRight",
+  "jawForward",
+  "jawLeft",
+  "jawOpen",
+  "jawRight",
+  "mouthClose",
+  "mouthDimpleLeft",
+  "mouthDimpleRight",
+  "mouthFrownLeft",
+  "mouthFrownRight",
+  "mouthFunnel",
+  "mouthLeft",
+  "mouthLowerDownLeft",
+  "mouthLowerDownRight",
+  "mouthPressLeft",
+  "mouthPressRight",
+  "mouthPucker",
+  "mouthRight",
+  "mouthRollLower",
+  "mouthRollUpper",
+  "mouthShrugLower",
+  "mouthShrugUpper",
+  "mouthSmileLeft",
+  "mouthSmileRight",
+  "mouthStretchLeft",
+  "mouthStretchRight",
+  "mouthUpperUpLeft",
+  "mouthUpperUpRight",
+  "noseSneerLeft",
+  "noseSneerRight"
+ ],
+ "normalisasi": "titik (x,y,z piksel; z = lm.z * lebar gambar) dikurangi titik tengah bahu (pose 11 & 12) pada x,y lalu semua dibagi lebar bahu; bila bahu tidak terlihat, pakai nilai terakhir."
+}

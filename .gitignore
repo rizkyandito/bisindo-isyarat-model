@@ -1,0 +1,16 @@
+# lingkungan Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# dataset besar -> ada di Hugging Face (lihat unggah_hf.py)
+data_hf/**/*.parquet
+
+# model MediaPipe -> unduh dari Google (lihat fitur.py)
+models/*.task
+
+# rahasia
+.env
+.env.*
